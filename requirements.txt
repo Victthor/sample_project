@@ -1,0 +1,12 @@
+
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+setuptools >= 61.0.0
+twine >= 1.11.0
+wheel >= 0.31.0
+
+torch == 2.1.1
+torchvision == 0.16.1
+torchaudio == 2.1.1
+
+mlflow >= 2.8.1

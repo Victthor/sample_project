@@ -1,0 +1,12 @@
+
+name: sample_environment
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+#  - setuptools
+  - pip:
+#    - package1>=1.0.0
+#    - package2==2.0.0
+    - -r requirements.txt
