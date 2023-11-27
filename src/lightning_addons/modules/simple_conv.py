@@ -20,6 +20,14 @@ class ConvModel(LightningModule):
             lr: float = 0.001,
             class_weights: Optional[Union["numpy.array", "torch.Tensor"]] = None
     ):
+        """
+
+        Args:
+            n_classes:
+            dropout:
+            lr:
+            class_weights:
+        """
         super().__init__()
         self.n_classes = n_classes
         self.lr = lr
