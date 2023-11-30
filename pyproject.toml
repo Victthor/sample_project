@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lightning_addons"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
     "twine>=4.0.2",
     "build>=1.0.3",
