@@ -1,0 +1,52 @@
+
+# good config example: https://github.com/mkdocstrings/python/blob/main/mkdocs.yml
+
+site_name: Lightning Addons
+repo_url: "https://github.com/Victthor/sample_project"
+
+plugins:
+  - search  # To have search functionality on the document
+  - gen-files:
+      scripts:
+        - scripts/gen_ref_pages.py  #
+  - mkdocstrings  # To generate documentation from the code docstrings
+  - literate-nav:
+      nav_file: SUMMARY.md
+  - section-index
+
+nav:
+  - Home: 'index.md'
+  - User Guide:
+    - How to use: 'user_guide/how_to_use.md'
+  - Developer Guide:
+    - Steps for version release: 'developer_guide/steps_for_version_release.md'
+    - Documentation guide: 'developer_guide/documentation_guide.md'
+  - API Reference: 'reference/'
+
+# https://mkdocstrings.github.io/recipes/
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_lang_class: true
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference

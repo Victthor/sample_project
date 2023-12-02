@@ -1,2 +1,0 @@
-
-Sphinx with Napoleon extension
