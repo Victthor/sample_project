@@ -160,6 +160,11 @@ class ConvModel(LightningModule):
 
 
 if __name__ == '__main__':
+    import sys
+    print(sys.path)
+
+    print(dir())
+
     import os
 
     print(os.getcwd())

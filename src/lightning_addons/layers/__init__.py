@@ -1,2 +1,2 @@
 
-import simple_cnn
+import lightning_addons.layers.simple_cnn

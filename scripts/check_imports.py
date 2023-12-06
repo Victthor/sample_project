@@ -1,8 +1,6 @@
 
-import lightning_addons
+from lightning_addons.modules.simple_conv import SimpleCNN
 
-# net = SimpleCNN()
-
-
+net = SimpleCNN()
 
 m = 1

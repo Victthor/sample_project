@@ -1,2 +1,2 @@
 
-import focal
+import lightning_addons.losses.focal

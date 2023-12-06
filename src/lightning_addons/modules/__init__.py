@@ -1,2 +1,2 @@
 
-import simple_conv
+import lightning_addons.modules.simple_conv
