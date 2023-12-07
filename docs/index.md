@@ -2,6 +2,7 @@
 # Home
 
 ---
+Project documentation site: [https://Victthor.github.io/sample_project/](https://Victthor.github.io/sample_project/)  
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
