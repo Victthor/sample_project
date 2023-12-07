@@ -1,5 +1,5 @@
 
--e ../src/lightning_addons
+-e .
 
 mkdocs == 1.5.3
 mkdocstrings == 0.24.0  # support automated docstrings generation
