@@ -36,11 +36,11 @@ catalog of plugins and mods: [https://github.com/mkdocs/catalog](https://github.
 * Add xxx.md file to the `docs/`, for nested files create appropriate folders  
 * Update mkdocs.yml nav config:  
 
-```yaml
+  ```yaml
     nav:
       - Nested name 1:
         - Page name: 'nested_folder_1/xxx.md'
-```
+  ```
 
 ### API reference generation  
 API generated automatically utilizing mkdocs-gen-files plugin  

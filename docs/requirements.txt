@@ -1,4 +1,6 @@
 
+-e ../
+
 mkdocs == 1.5.3
 mkdocstrings == 0.24.0  # support automated docstrings generation
 mkdocstrings-python == 1.7.5  # python handler
