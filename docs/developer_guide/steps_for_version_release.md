@@ -16,6 +16,8 @@
     * `python -m build`
 * Upload package to the PyPi/Pypi_test/Azure artifacts, etc...
     * Using twine: `python -m twine upload --repository testpypi dist/*`
+* Upload documentation to GitHub pages/another:  
+    * `mkdocs gh-deploy --clean`
 
 Useful links:  
 [setuptools quickstart](https://setuptools.pypa.io/en/latest/userguide/quickstart.html)

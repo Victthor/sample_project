@@ -19,6 +19,7 @@ nav:
   - User Guide:
     - How to use: 'user_guide/how_to_use.md'
   - Developer Guide:
+    - Installation for developer: 'developer_guide/dev_guide.md'
     - Steps for version release: 'developer_guide/steps_for_version_release.md'
     - Documentation guide: 'developer_guide/documentation_guide.md'
   - API Reference: 'reference/'

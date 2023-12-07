@@ -22,6 +22,7 @@ catalog of plugins and mods: [https://github.com/mkdocs/catalog](https://github.
 * `mkdocs new [dir-name]` - Create a new project
 * `mkdocs serve` - Start the live-reloading docs server
 * `mkdocs build` - Build the documentation site
+* `mkdocs gh-deploy --clean` - Upload documentation to [GitHub Pages](https://pages.github.com/)
 * `mkdocs -h` - Print help message and exit
 
 ### Project layout
