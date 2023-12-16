@@ -1,5 +1,7 @@
 
--e .
+# this file used by readthedocs.io build system
+
+-e .  # used to locally install the package itself for automated API generation
 
 mkdocs == 1.5.3
 mkdocstrings == 0.24.0  # support automated docstrings generation

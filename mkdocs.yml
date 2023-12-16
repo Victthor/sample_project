@@ -22,6 +22,7 @@ nav:
     - Installation for developer: 'developer_guide/dev_guide.md'
     - Steps for version release: 'developer_guide/steps_for_version_release.md'
     - Documentation guide: 'developer_guide/documentation_guide.md'
+    - Testing: 'developer_guide/testing.md'
   - API Reference: 'reference/'
 
 # https://mkdocstrings.github.io/recipes/

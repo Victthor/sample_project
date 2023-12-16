@@ -22,3 +22,5 @@ mkdocs-gen-files == 0.5.0  # https://github.com/oprypin/mkdocs-gen-files
 mkdocs-literate-nav == 0.6.1  # https://github.com/oprypin/mkdocs-literate-nav
 mkdocs-section-index == 0.3.8  # https://github.com/oprypin/mkdocs-section-index
 mkdocs-material == 9.4.14  # https://github.com/squidfunk/mkdocs-material
+
+pytest == 7.4.3
